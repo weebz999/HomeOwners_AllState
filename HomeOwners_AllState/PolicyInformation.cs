@@ -19,10 +19,6 @@ namespace HomeOwners_AllState
         public string PolicyForm { get; set; }
         public string BillingAccountNumber { get; set; }
         public string PolicyFee { get; set; }
-        public Amount TotalPremium { get; set; }
-        public string LocationOfThePropertyInsured { get; set; }
-        public Address InsuredAddress { get; set; }
-
 
     }
 }
