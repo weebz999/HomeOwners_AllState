@@ -9,10 +9,7 @@ namespace HomeOwners_AllState
    public class PolicyInformation
     {
         public string PolicyType { get; set; }
-        public string NamedInsured_FirstName { get; set; }
-        public string NamedInsured_MiddleName { get; set; }
-        public string NamedInsured_LastName { get; set; }
-        public string NamedInsured_Title { get; set; }
+        public Name NamedInsured{ get; set; }
         public string PolicyNumber { get; set; }
         public DatePeriod PolicyPeriod { get; set; }
         public InsurenceAgency InsurenceAgency { get; set; }
