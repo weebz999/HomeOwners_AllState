@@ -57,6 +57,7 @@
     <Compile Include="InsuranceCompanyInfo.cs" />
     <Compile Include="InsurenceAgency.cs" />
     <Compile Include="LimitsOfLiability.cs" />
+    <Compile Include="Name.cs" />
     <Compile Include="PolicyInformation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
