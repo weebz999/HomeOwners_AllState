@@ -8,7 +8,7 @@ namespace HomeOwners_AllState
 {
    public class DatePeriod
     {
-        public string From { get; set; }
+        public string From { get; set; } 
         public string To { get; set; }
     }
 }

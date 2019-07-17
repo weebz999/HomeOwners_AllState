@@ -12,7 +12,7 @@ namespace HomeOwners_AllState
         public string Code { get; set; }
         public string Name { get; set; }
         public string FormNumber { get; set; }
-        public Amount TotalAmount { get; set; }
+        public Amount TotalAmount { get; set; } = new Amount();
         public string ParentCoverage { get; set; }
         public string Type { get; set; }
     }

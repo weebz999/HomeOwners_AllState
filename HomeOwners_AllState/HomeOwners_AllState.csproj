@@ -50,18 +50,20 @@
     <Compile Include="Amount.cs" />
     <Compile Include="Coverage.cs" />
     <Compile Include="DatePeriod.cs" />
-    <Compile Include="Dedcutable.cs" />
+    <Compile Include="Deductable.cs" />
     <Compile Include="Discount.cs" />
     <Compile Include="DocumentIdentification.cs" />
     <Compile Include="Endorsement.cs" />
     <Compile Include="InsuranceCompanyInfo.cs" />
+    <Compile Include="InsuredPropertyDetail.cs" />
     <Compile Include="InsurenceAgency.cs" />
+    <Compile Include="JsonHomeOwnersAllState.cs" />
     <Compile Include="LimitsOfLiability.cs" />
     <Compile Include="Name.cs" />
-    <Compile Include="PolicyInformation.cs" />
+    <Compile Include="Policy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rating.cs" />
+    <Compile Include="Mortgagee.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

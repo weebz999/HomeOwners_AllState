@@ -10,5 +10,6 @@ namespace HomeOwners_AllState
     {
         public string FormIdentifier { get; set; }
         public string FormName { get; set; }
+        public string CompanyName { get; set; }
     }
 }

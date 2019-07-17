@@ -11,8 +11,8 @@ namespace HomeOwners_AllState
         public string Section { get; set; }
         public string Code { get; set; }
         public string Name { get; set; }
-        public List<LimitsOfLiability> LimitsOfLiabilities { get; set; }
-        public List<Dedcutable> Dedcutables { get; set; }
+        public List<LimitsOfLiability> LimitsOfLiabilities { get; set; } = new List<LimitsOfLiability>();
+        public List<Deductable> Deductables { get; set; } = new List<Deductable>();
 
     }
 }
